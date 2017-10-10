@@ -20,7 +20,7 @@ gulp.task('webserver', function() {
 
 //Styles Task 
 gulp.task('styles', function() {   
-    return sass('final/*.scss', {
+    return sass('final/styles.scss', {
      style: 'expanded'
     })    
      .on('error', errorLog)
