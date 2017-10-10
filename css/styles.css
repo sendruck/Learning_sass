@@ -42,7 +42,7 @@ li {
 }
 #main-nav li {
   float: left;
-  width: 14%;
+  width: 16.6666666667%;
 }
 #main-nav a {
   color: #f8f9fb;
@@ -113,4 +113,32 @@ section h1 {
   font-size: 20px;
   max-width: 500px;
   margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+#services li {
+  width: 33.3333333333%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+#services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+#services a {
+  text-decoration: none;
+  color: #133B72;
+  font-weight: bold;
+}
+#services a:hover {
+  color: red;
+}
+#services ul:after {
+  content: "";
+  display: block;
+  clear: both;
 }
